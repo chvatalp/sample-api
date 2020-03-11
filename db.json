@@ -1,1 +1,35 @@
-{"details":"rates","version":null,"rates":[{"name":"SampleCountry","code":"SC","country_code":"SC","periods":[{"effective_from":"0000-03-04","rates":{"super_reduced":1.0,"reduced":15.0,"standard":20.0}}]},{"name":"SampleCountry2","code":"SC2","country_code":"SC2","periods":[{"effective_from":"0000-01-01","rates":{"reduced":15.0,"standard":21.0}}]}]}
+{
+  "details": "rates",
+  "version": null,
+  "rates": [
+    {
+      "name": "SampleCountry",
+      "code": "SC",
+      "country_code": "SC",
+      "periods": [
+        {
+          "effective_from": "0000-03-04",
+          "rates": {
+            "super_reduced": 1.0,
+            "reduced": 15.0,
+            "standard": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SampleCountry2",
+      "code": "SC2",
+      "country_code": "SC2",
+      "periods": [
+        {
+          "effective_from": "0000-01-01",
+          "rates": {
+            "reduced": 15.0,
+            "standard": 21.0
+          }
+        }
+      ]
+    }
+  ]
+}
